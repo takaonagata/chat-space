@@ -22,7 +22,6 @@
 ## groupテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|text|null: false|
 |user_id|integer|null: false, foreign_key: true|
 ### Association
 - has_many  :user_group
