@@ -30,6 +30,7 @@
     background-color: #2f3e51;
     height: calc(100vh - 100px);
     padding: 20px;
+    overflow: scroll;
     .group {
       color: white;
       text-decoration: none;
@@ -46,7 +47,7 @@
   }
 }
 
-.group__link {
-  color: white;
+.name{
   text-decoration: none;
+  color: white;
 }
